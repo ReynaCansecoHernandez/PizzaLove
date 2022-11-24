@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Pizza|Las mejores a bajo precio</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Bienvenidos a mi tu mejor lugar donde encontraras las mejores pizzas a bajo precio" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="author" type="text/plain" href="humans.txt" />
+	<link rel="stylesheet" href="css/flexslider.css"/>
+	<link rel="stylesheet" href="css/style.css" />
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js></script>
+	<!--[endif]-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script><!--esta direccion es para que jquery se vaya actualizando automaticamente con la ultima version.-->
+	<script src="js/jquery.flexslider.js"></script>
+
+	<script>
+		$(window).load(function(){
+			$('.flexslider').flexslider();
+		});
+	</script>
+
+</head> 
+<body>
+	<header>
+		<h1>
+			<a href="index.html">
+				<img src="img/5205f54336a75048cde64e99f8a81105.png" class="fade" alt="Las mejores pizzas a precios mas bajos" title="Las mejores Pizzas">
+			</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="acerca.html">Acerca</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="susucursales.html">Sucursales</a></li>
+				<li><a href="contactos.html">Contactos</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="contenido">
+	<section id="contacto">
+		<h2>Contáctos</h2>
+		<article id="info-contacto">
+			<p>
+				Email:
+				<span class="datos-contacto">lasmejorespizzas@gmail.com</span>
+				<br>
+				Movil:
+				<span class="datos-contacto">(287)87-1-33-45</span>
+				<br>
+				Web:
+				<span class="datos-contacto">www.lasmejorespizzas.com</span>
+				<br>
+				Dirección:
+				<span class="datos-contacto">San Juan Bautsta Tuxtepec, Oaxaca.</span>
+				<br>
+				Social Media:
+				<br>
+				<span class="datos-contacto">
+					<a href="#"><img src="img/facebook-logo.png"></a>
+					<a href="#"><img src="img/twitter-logo.png"></a>
+					<a href="#"><img src="img/google-plus-logo.png"></a>
+					<a href="#"><img src="img/youtube-logo.png"></a>
+				</span>
+
+
+			</p>
+			
+		</article>
+		<article id="contactos">
+			<div class="form">
+			<form action="guardar.php" method="POST">
+				<fieldset>
+					<legend>Envianos tus comentarios</legend>
+					<div>
+						<label for="nombre">Nombre</label>
+						<input type="text" class="fade" name="nombre_txt" required>
+					</div>
+					<div>
+						<label for="numero">Numero telefonico</label>
+						<input type="text" class="fade" name="nombre_txt" required>
+					</div>
+					<div>
+						<label for="email">Email</label>
+						<input type="email" class="fade" name="email_txt" required>
+					</div>
+					<div>
+						<label for="asunto">Asunto</label>
+						<input type="text" class="fade" name="asunto_txt" required>
+					</div>
+					<div>
+						<label for="comentario">Comentario</label>
+						<textarea name="comentario" class="fade" cols="31" rows="5"></textarea>
+						
+					</div>
+					<div>
+						<input type="submit" name="enviar" class="fade" value="Enviar">
+					</div>
+					
+				</fieldset>
+			</form>
+			</div>
+		</article>
+		</section>
+		<section id="mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3792.6459054764678!2d-96.12706538586899!3d18.08793988698449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c3e6f6c731aec9%3A0xbb2ac683daa934a9!2sEmiliano+Zapata%2C+L%C3%A1zaro+C%C3%A1rdenas%2C+San+Juan+Bautista+Tuxtepec%2C+Oax.!5e0!3m2!1ses-419!2smx!4v1524067777817" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+			<br><small>Ver <a href="https://www.google.com/maps/place/San+Juan+Bautista+Tuxtepec,+Oax./@18.069572,-96.1762187,11124m/data=!3m1!1e3!4m5!3m4!1s0x85c3e697e38a7355:0xe5cebe583938fd15!8m2!3d18.0809028!4d-96.1420947" style="color:#0000FF;text-align:left">https://www.google.com/maps</a> en un mapa más grande</small>
+			<fieldset>
+			<legend>Registrate</legend>
+			<div>
+						<label for="correo">Correo Electronico</label>
+						<input type="text" class="fade" name="nombre_txt" required>
+					</div>
+					<div>
+						<label for="contraseña">Contraseña</label>
+						<input type="text" class="fade" name="nombre_txt" required>
+					</div>
+		</fieldset>
+			
+		</section>
+		
+	</section>
+
+	<footer>
+		Politicas de privacidad  |   Terminos de uso  |  Contactanos  |  Internacional  <p>(c) 2018 Pizza Inc. Todos los derechos reservados.</p>
+	</footer>
+
+</body>
+</html>
